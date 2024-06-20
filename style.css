@@ -1,0 +1,88 @@
+
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f8f9fa; 
+}
+
+h1, h2, h5 {
+font-weight: bold;
+}
+
+header {
+background-color: #343a40; 
+}
+
+header h1 {
+margin: 0;
+padding: 0.5rem 0;
+}
+
+.navbar-nav .nav-link {
+color: #ffffff !important;
+}
+
+
+#secao1 img {
+width: 150px;
+height: 150px;
+object-fit: cover;
+margin-bottom: 1rem;
+}
+
+#secao1 h2 {
+color: #343a40;
+}
+
+#secao1 p {
+font-size: 1.1rem;
+color: #6c757d;
+}
+
+
+#secao2 h2 {
+color: #343a40;
+margin-bottom: 2rem;
+}
+
+#secao2 .card {
+margin-bottom: 1.5rem;
+}
+
+#secao2 .card-title {
+color: #007bff;
+}
+
+/* Seção 3 - Carrossel */
+#secao3 h2 {
+color: #343a40;
+margin-bottom: 2rem;
+}
+
+.carousel-item img {
+height: 400px;
+object-fit: cover;
+}
+
+/* Seção 4 - Colegas */
+#secao4 h2 {
+color: #343a40;
+margin-bottom: 2rem;
+}
+
+#secao4 .card {
+margin-bottom: 1.5rem;
+}
+
+#secao4 .card-title {
+color: #343a40;
+}
+
+/* Rodapé */
+footer {
+background-color: #343a40;
+color: #ffffff;
+}
+
+footer p {
+margin: 0;
+}

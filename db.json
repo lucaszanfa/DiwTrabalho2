@@ -1,0 +1,65 @@
+{
+    "perfil": {
+      "nome": "Lucas Franco Zanforlim",
+      "descricao": "Estudante do curso de ciência da computação na Puc",
+      "imagem": "Img/LucasLa.jpg"
+    },
+    "repositorios": [],
+    "albuns": [
+      {
+        "id": 1,
+        "titulo": "Counter Strike 2",
+        "descricao": "",
+        "urlCapa": "Img/CS.jpg",
+        "urlConteudo": ""
+      },
+      {
+        "id": 2,
+        "titulo": "Atlético Mg",
+        "descricao": "",
+        "urlCapa": "Img/Galo.jpg",
+        "urlConteudo": ""
+      },
+      {
+        "id": 3,
+        "titulo": "Los Angeles",
+        "descricao": "",
+        "urlCapa": "Img/la.jpg",
+        "urlConteudo": ""
+      },
+      {
+        "id": 4,
+        "titulo": "Real Madrid",
+        "descricao": "",
+        "urlCapa": "Img/real.png",
+        "urlConteudo": ""
+      },
+      {
+        "id": 5,
+        "titulo": "Golden State Warriors",
+        "descricao": "",
+        "urlCapa": "Img/warriors.png",
+        "urlConteudo": ""
+      }
+    ],
+    "colleagues": [
+      {
+        "id": 1,
+        "image": "Img/cristianoronaldo.jpg",
+        "name": "Cristiano Ronaldo",
+        "github": ""
+      },
+      {
+        "id": 2,
+        "image": "Img/Neymar.jpg",
+        "name": "Neymar",
+        "github": ""
+      },
+      {
+        "id": 3,
+        "image": "Img/messi.jpg",
+        "name": "Lionel Messi",
+        "github": ""
+      }
+    ]
+  }

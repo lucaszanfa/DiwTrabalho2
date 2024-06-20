@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio no GitHub</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header class="bg-dark text-white text-center py-3">
+    <h1>Lucas Franco Zanforlim</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#secao1">Perfil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#secao2">Repositórios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#secao3">Conteúdos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#secao4">Colegas</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Seção 1 - Perfil -->
+<section id="secao1" class="container my-5">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img id="perfil-img" class="rounded-circle" src="Img/LucasLa.jpg" alt="Avatar">
+        </div>
+        <div class="col-md-8">
+            <h2 id="perfil-nome">Lucas Franco Zanforlim</h2>
+            <p id="perfil-descricao">Estudante do curso de ciência da computação na Puc</p>
+        </div>
+    </div>
+</section>
+
+<!-- Seção 2 - Repositórios -->
+<section id="secao2" class="container my-5">
+    <h2>Meus Repositórios</h2>
+    <div class="row content-main">
+        <!-- Conteúdo dinâmico dos repositórios será inserido aqui -->
+    </div>
+</section>
+
+<!-- Seção 3 - Carrossel -->
+<section id="secao3" class="container my-5">
+    <h2>Conteúdos Recomendados</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <!-- Indicadores dinâmicos do carrossel -->
+        </ol>
+        <div class="carousel-inner">
+            <!-- Conteúdo dinâmico do carrossel será inserido aqui -->
+            <div class="carousel-item active">
+                <img src="Img/CS.jpg" class="d-block w-100" alt="Counter Strike 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Counter Strike 2</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Img/Galo.jpg" class="d-block w-100" alt="Atlético Mg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Atlético Mg</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Img/la.jpg" class="d-block w-100" alt="Los Angeles">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Los Angeles</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Img/real.png" class="d-block w-100" alt="Real Madrid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Real Madrid</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Img/warriors.png" class="d-block w-100" alt="Golden State Warriors">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Golden State Warriors</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+</section>
+
+<!-- Seção 4 - Colegas -->
+<section id="secao4" class="container my-5">
+    <h2>Colegas de Trabalho</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Img/cristianoronaldo.jpg" class="card-img-top" alt="Cristiano Ronaldo">
+                <div class="card-body">
+                    <h5 class="card-title">Cristiano Ronaldo</h5>
+                    <a href="#" class="btn btn-primary">Perfil no GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Img/Neymar.jpg" class="card-img-top" alt="Neymar">
+                <div class="card-body">
+                    <h5 class="card-title">Neymar</h5>
+                    <a href="#" class="btn btn-primary">Perfil no GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Img/messi.jpg" class="card-img-top" alt="Lionel Messi">
+                <div class="card-body">
+                    <h5 class="card-title">Lionel Messi</h5>
+                    <a href="#" class="btn btn-primary">Perfil no GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; Lucas Franco Zanforlim</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
